@@ -1,0 +1,91 @@
+body{
+
+    background-color:#fff;
+}
+/* Estilização para o conteúdo central */
+.content-center {
+
+    width: 100%;
+    text-align: 10px;
+    max-width: 300px;
+    background-color: #dee2e6;
+    margin: auto;
+    padding: 10px;
+   line-height:normal
+  
+}
+/* Estilização para a tabela dentro do conteúdo central */
+.content-center table{
+
+    width: 100%;
+    border-collapse: collapse ;
+}
+.content-center td{
+
+    padding: 10px;
+}
+/* Estilização para as células da tabela, com borda superior */
+.content-center td{
+    padding: 10px;
+    border-top: 1px solid #dee2e6;
+}
+/* Estilização para as linhas ímpares da tabela */
+.ccontent-center  tbody tr:nth-child(odd){
+
+    background-color: rgba(0, 0, 0,.05);
+}
+/* Estilização para a tabela, quando o mouse estiver em cima */
+.content-centertr:hover{
+
+    background-color: rgba(0, 0, 0,.15);
+    cursor: pointer;
+
+}
+/* Estilização para o elemento com ID "valorA" */
+ #valorA{
+     width: 100px;
+     padding: 10px;
+ }
+/* Estilização para a lista com classe "todo" */
+ .todo{
+     list-style: none  ;
+     padding: 2px;
+ }
+ /* Estilização para cada item da lista (li) */
+ .todo li {
+     padding: 10px; 
+     border-bottom: #ccc 1px solid ;
+ }
+
+ /* Estilização para o input dentro de cada item da lista */
+ .todo li input{
+
+    width: initial;
+    margin-left: 1px;
+ }
+
+/* Estilização para o item da lista marcado como completo */
+.todo li.complete {
+
+    text-decoration: line-through;
+    color: #999;
+    cursor: not-allowed;
+    
+ }
+/* Estilização para o botão dentro de cada item da lista */
+ .todo button{
+
+    width: 30px ;
+    color: #fff;
+    background-color: rgb(205, 118, 118) ;
+    float: right;
+    min-height: 30px;
+    
+
+ }
+/* Estilização para o elemento com ID "new-task" */
+ #new-task {
+
+    width: 90%;
+    padding: 8px;
+ }
